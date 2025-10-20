@@ -16,3 +16,5 @@ def add(url: str, title: Optional[str]=None, tags: Optional[List[str]]=None, not
     data["bookmarks"].append({"ts": datetime.now().isoformat(),"url":url,"title":title or "","tags":tags or [],"note":note})
     json.dump(data, open(p,"w",encoding="utf-8"), ensure_ascii=False, indent=2)
     return p
+
+# autosave 2025-10-20T12:39:42.979463+00:00
