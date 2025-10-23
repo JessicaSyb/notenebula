@@ -12,3 +12,5 @@ def export_json() -> str:
     json.dump(data, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return p
 # tweak 2025-10-06T10:57:48.203625+00:00
+
+# autosave 2025-10-23T18:47:13.700481+00:00
