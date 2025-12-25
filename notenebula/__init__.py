@@ -9,3 +9,5 @@ from .bookmarks.store import add as add_bookmark
 __all__ = ["write_note","read_note","list_notes","build_index",
            "build_graph","out_degree","in_degree","top_by_out",
            "export_json","export_tags_csv","add_task","add_bookmark"]
+
+# autosave 2025-12-25T12:43:10.668118+00:00
