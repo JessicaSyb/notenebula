@@ -16,3 +16,5 @@ def run():
     json.dump(idx, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return True, "sample plugin updated 'chars'"
 # tweak 2025-12-18T13:28:55.651273+00:00
+
+# autosave 2026-01-01T13:11:43.666478+00:00
